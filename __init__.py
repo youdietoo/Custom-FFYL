@@ -191,7 +191,7 @@ def ffyl_start(obj: UObject, _args: WrappedStruct, _ret: object, _func: BoundFun
     obj.TotalBleedoutTime = final_duration
 
 @hook("WillowGame.WillowPawn:injured.EndState", Type.POST)
-def ffyl_end(_obj: UObject, _args: WrappedStruct, _ret: object, _func: BoundFunction):
+def ffyl_end(obj: UObject, _args: WrappedStruct, _ret: object, _func: BoundFunction):
     if not is_local_pawn(obj):
         return
     
