@@ -1,0 +1,11 @@
+[projects]
+name = "Custom FFYL"
+version = "1.0"
+authors = [{ name = "youdietoo" }]
+description = """\
+Changes FFYL behavior with fully customizable state durations, recovery timing, and kill-based state recovery.
+"""
+
+[tool.sdkmod]
+name = "Custom FFYL"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
